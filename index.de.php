@@ -676,9 +676,9 @@
                         <!-- Tweet -->
                         <a href="https://twitter.com/share" class="twitter-share-button" data-via="clansuite" data-count="none" data-hashtags="clansuite">Tweet</a>
                         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-                        <!-- Github Watchers -->
+                        <!-- Github Watchers
                         <iframe src="http://markdotto.github.com/github-buttons/github-btn.html?user=jakoch&amp;repo=Clansuite&amp;type=watch&amp;count=true"
-                                    frameborder="0" width="85" height="20"></iframe>
+                                    frameborder="0" width="85" height="20"></iframe> -->
                     </div>
 
                     <?php /*
