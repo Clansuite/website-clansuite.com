@@ -1,0 +1,592 @@
+/*
+    Kubrick v1.5
+    http://binarybonsai.com/kubrick/
+
+    This theme was designed and built by Michael Heilemann,
+    whose blog you will find at http://binarybonsai.com/
+    The CSS, XHTML and design is released under GPL:
+    http://www.opensource.org/licenses/gpl-license.php
+*/
+
+/* Begin Typography & Colors */
+body {
+    background: #d5d6d7 url("http://cdn.clansuite.com/images/kubrickbgcolor.png");
+    color: #333;
+    text-align: center;
+}
+
+body, select, input, textarea {
+    font: 0.625em/1.4 'Lucida Grande', verdana, arial, helvetica, sans-serif;
+}
+
+#page {
+    border: none;
+    text-align: left;
+    min-height: 768px;
+}
+
+#main {
+    min-height: 768px;
+    float: left;
+}
+
+#header {
+    width:960px;
+    height:138px;
+    margin:0pt !important;
+    padding:0px;
+    left: 31px;
+}
+
+#content {
+    line-height: 1.5;
+    font-size: 1.2em;
+    border-left:1px solid #DDDDDD;
+    border-right:1px solid #DDDDDD;
+    min-height:580px;
+    width: 565px;
+    z-index:0;
+    float: left;
+    /* Gradient Background */
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top, #ffffff 0%, #eeeeee 18%, #eeeeee 82%, #ffffff 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(18%,#eeeeee), color-stop(82%,#eeeeee), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #ffffff 0%,#eeeeee 18%,#eeeeee 82%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #ffffff 0%,#eeeeee 18%,#eeeeee 82%,#ffffff 100%); /* Opera11.10+ */
+    background: -ms-linear-gradient(top, #ffffff 0%,#eeeeee 18%,#eeeeee 82%,#ffffff 100%); /* IE10+ */
+    background: linear-gradient(top, #ffffff 0%,#eeeeee 18%,#eeeeee 82%,#ffffff 100%); /* W3C */
+}
+
+#menu
+{
+    font-size: 1.1em;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+
+#footer {
+    border: none;
+}
+
+#widget-twitter {
+    margin-left: -30px; margin-top: 25px;
+}
+
+small {
+    font-family: Arial, Helvetica, Sans-Serif;
+    font-size: 0.9em;
+    line-height: 1.5em;
+}
+
+h2, h3 {
+    font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-Serif;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.6em;
+}
+
+.leftsidebar h2, .rightsidebar h2 {
+    font-family: 'Lucida Grande', Verdana, Sans-Serif;
+    font-size: 1.2em;
+}
+
+h3 {
+    font-size: 1.3em;
+}
+
+h2, h2 a, h2 a:visited, h3, h3 a, h3 a:visited {
+    color: #333;
+}
+
+h2, h2 a, h2 a:hover, h2 a:visited, h3, h3 a, h3 a:hover, h3 a:visited, .leftsidebar h2, .rightsidebar h2, #wp-calendar caption, cite {
+    text-decoration: none;
+}
+
+small, .leftsidebar ul ul li, .leftsidebar ul ol li, .rightsidebar ul ul li, .rightsidebar ul ol li, blockquote, strike {
+    color: #777;
+}
+
+code {
+    font: 1.1em 'Courier New', Courier, Fixed;
+}
+
+abbr
+{
+    font-size: 0.9em;
+    letter-spacing: .07em;
+}
+
+a, h2 a:hover, h3 a:hover {
+    color: #06c;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #147;
+    text-decoration: underline;
+}
+
+/* End Typography & Colors */
+
+/* Begin Structure */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#page {
+    background-color: white;
+    padding: 0;
+    width: 960px;
+}
+
+#header {
+    width: 100%;
+    background-color: transparent;
+    margin: 0 !important; margin: 0px 0px 0px 1px; padding: 0px; height: 138px; width: 960px;
+}
+
+#footer {
+    padding: 0 0 0 1px;
+    margin: 0 auto;
+    width: 960px;
+    clear: both;
+}
+
+#footer p {
+    margin: 0;
+    padding: 20px 0;
+    text-align: center;
+}
+/* End Structure */
+
+
+
+/*  Begin Headers */
+h2 {
+    margin: 12px 0 0;
+}
+
+h2.pagetitle {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.leftsidebar h2, .rightsidebar h2 {
+    margin-top: 5px;
+    margin-bottom: 4px;
+}
+
+h3 {
+    padding: 0;
+    margin: 15px 0 0;
+}
+
+/* End Headers */
+
+
+
+/* Begin Images */
+p img {
+    padding: 0;
+    max-width: 100%;
+}
+
+/*  Using 'class="alignright"' on an image will (who would've
+    thought?!) align the image to the right. And using 'class="centered',
+    will of course center the image. This is much better than using
+    align="center", being much more futureproof (and valid) */
+
+img.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.alignright {
+    padding: 4px;
+    margin: 0 0 2px 7px;
+    display: inline;
+}
+
+img.alignleft {
+    padding: 4px;
+    margin: 0 7px 2px 0;
+    display: inline;
+}
+
+/* End Images */
+
+/* Begin Lists
+
+    Special stylized non-IE bullets
+    Do not work in Internet Explorer, which merely default to normal bullets. */
+
+.leftsidebar ul ul li:before, .rightsidebar ul ul li:before {
+    content: "\00BB \0020";
+}
+
+.leftsidebar ul, .leftsidebar ul ol, .rightsidebar ul, .rightsidebar ul ol {
+    margin: 0;
+    padding: 0;
+}
+
+.leftsidebar ul , .rightsidebar ul {
+    list-style-type: none;
+    list-style-image: none;
+}
+
+.leftsidebar li, .rightsidebar li  {
+    padding-bottom: 4px;
+    padding-top: 4px;
+    line-height: 1.5;
+}
+
+.leftsidebar ul p, .leftsidebar ul select, .rightsidebar ul p, .rightsidebar ul select {
+    margin: 5px 0 8px;
+}
+
+.leftsidebar ul ul, .leftsidebar ul ol, .rightsidebar ul ul, .rightsidebar ul ol {
+    margin: 5px 0 0 10px;
+}
+
+.leftsidebar ul ul ul, .leftsidebar ul ol, .rightsidebar ul ul ul, .rightsidebar ul ol {
+    margin: 0 0 0 10px;
+}
+
+ol li, .leftsidebar ul ol li, .rightsidebar ul ol li  {
+    list-style: decimal outside;
+}
+
+.leftsidebar ul ul li, .leftsidebar ul ol li, .rightsidebar ul ul li, .rightsidebar ul ol li {
+    margin: 3px 0 0;
+    padding: 0;
+}
+
+/* End Entry Lists */
+/* Begin Various Tags & Classes */
+abbr {
+    cursor: help;
+}
+
+abbr {
+    border-bottom: 1px dashed #999;
+}
+
+.center {
+    text-align: center;
+}
+
+a img {
+    border: none;
+}
+
+/* End Various Tags & Classes*/
+/* End Kubrick Wordpress CSS*/
+
+/* Start Clansuite CSS */
+
+#page {
+    -moz-border-radius: 15px 15px 0pt 0pt;
+    border-radius: 15px 15px 0pt 0pt;
+    background-color: rgb(255, 255, 255); border: 1px solid rgb(170, 170, 170);
+    margin: 48px auto 25px;
+    padding: 15px 30px;
+    width: 960px;
+}
+
+#header {
+    position: relative;
+    top: -35px;
+    float: right;
+    width: 80%;
+    -moz-border-radius: 15px 15px 0pt 0pt;
+    border-radius: 15px 15px 0pt 0pt;
+    background-color: rgb(255, 255, 255);
+    border-width: 1px 1px medium;
+    border-style: solid solid none;
+    border-color: rgb(170, 170, 170) rgb(170, 170, 170);
+}
+
+#headerlogo {
+    background: #dcdcdc; /* Old browsers */
+    background: -moz-linear-gradient(top, #dcdcdc 0%, #bbbbbb 50%, #b4b2b4 51%, #acaaac 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dcdcdc), color-stop(50%,#bbbbbb), color-stop(51%,#b4b2b4), color-stop(100%,#acaaac)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #dcdcdc 0%,#bbbbbb 50%,#b4b2b4 51%,#acaaac 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #dcdcdc 0%,#bbbbbb 50%,#b4b2b4 51%,#acaaac 100%); /* Opera11.10+ */
+    background: -ms-linear-gradient(top, #dcdcdc 0%,#bbbbbb 50%,#b4b2b4 51%,#acaaac 100%); /* IE10+ */
+    background: linear-gradient(top, #dcdcdc 0%,#bbbbbb 50%,#b4b2b4 51%,#acaaac 100%); /* W3C */
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+    -webkit-box-shadow:0 1px 4px black;
+    -moz-box-shadow:0 1px 4px black;
+    box-shadow:0 1px 4px black;
+    border-color:#DCDCDC #DCDCDC #BCBCBC;
+    border-style:solid;
+    border-width:1px;
+    height:90px;
+    line-height:90px;
+    margin:14px 17px 10px;
+    padding:15px 0;
+    width: auto;
+}
+
+#headerlogo h1
+{
+    margin-top: 0px;
+    color:#C70430;
+    font-size: 39px;
+    font-family: 'IM Fell DW Pica SC',serif;
+    text-align:center;
+    text-decoration:none;
+    text-shadow: 1px 0 1px black, -1px 0 1px white;
+}
+
+#sidebar {
+    float:left;
+    width: 195px;
+    padding-left: 25px;
+    margin-top: -120px;
+}
+
+#jokerlogo {
+    padding-bottom: 20px;
+    margin-left: 5px;
+}
+
+.js .hide {
+    display: none;
+}
+
+.box {
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+    -webkit-box-shadow:-2px -10px 30px rgba(166, 166, 166, 0.1) inset, 1px 1px 1px #FFFFFF inset;
+    -moz-box-shadow:-2px -10px 30px rgba(166, 166, 166, 0.1) inset, 1px 1px 1px #FFFFFF inset;
+    box-shadow: -2px -10px 30px rgba(166, 166, 166, 0.1) inset, 1px 1px 1px #FFFFFF inset;
+    border:1px solid #DCDCDC;
+    background-color: #FFFFFF;
+    border-width:1px;
+    color:#C70430;
+    margin-top: 10px;
+    margin-left: 15px;
+    padding:10px 13px 10px 13px;
+    width: 140px;
+}
+
+.headerstyle-text  {
+    float: left;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.headerstyle {
+    margin:15px 0 20px;
+    padding:5px 0 5px 8px;
+    background:#EEEEEE url('http://cdn.clansuite.com/images/gradient2.png') repeat-x;
+    border-color:#DDDDDD rgb(187, 187, 187) rgb(187, 187, 187) rgb(221, 221, 221);
+    border-style:solid;
+    border-width:1px;
+    border-radius: 3px;
+    color:#222222;
+    display:block;
+    display: inline-block;
+    width: 100%;
+}
+
+.rightpage {
+    font-size: 1.1em;
+    width:170px;
+    float: right;
+}
+
+img {
+    border: 0;
+}
+
+h2 {
+    border-bottom: 1px solid #808080;
+}
+
+a,
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.footer {
+    margin: auto;
+    font-family: Verdana;
+    font-size: 10px;
+    text-align: center;
+}
+
+.menu_button {
+    border-left:2px solid #AEB7BB;
+    color:#595965;
+    cursor:pointer;
+    height:18px;
+    letter-spacing:1px;
+    margin-top:6px;
+    padding-left:12px;
+    display:block;
+}
+a.menu_button.selected, a.menu_button.selected:hover {
+    padding-left: 40px;
+    border-left:2px solid #0066CC;
+    color: #0066CC;
+    font-weight: bold;
+}
+
+/*a.menu_button.selected:after {
+    content: ">";
+    font-size: 1.4em;
+    font-weight: bold;
+}*/
+
+a.menu_button:hover {
+    color: #0066CC;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.accordion {
+    margin-left: 6%;
+    margin-right: 8%;
+}
+
+dl {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+dl dt {
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/** START: Sektion Download - Toolbar Download Button Style **/
+
+/** Watch out: Image uses CSS Sprites **/
+
+#toolbar-download-button-outer
+{
+    background: transparent url('http://cdn.clansuite.com/images/toolbar-download-button-firefox.png') no-repeat scroll 0pt 100%;
+    margin: 10px 0pt 0px 0px;
+    padding: 0px 0pt 0pt 40px;
+    height: 60px;
+}
+
+#toolbar-download-button-inner
+{
+    background: transparent url('http://cdn.clansuite.com/images/toolbar-download-button-firefox.png') no-repeat scroll 100% 100%;
+    padding: 20px 0px 22px 5px;
+    margin-left: 12px;
+}
+
+/** END: Sektion Download - Toolbar Download Button Style **/
+
+/** START: 48px Icon Sprites
+
+  Usage: <div class="sprite accessories-text-editor">
+
+**/
+
+.sprite {
+    background: transparent url('http://cdn.clansuite.com/images/sprites/sprites.png') no-repeat;
+    display:block;
+    float: left;
+    margin-left: 10px;
+ }
+
+ .accessories-text-editor {
+    height               : 48px;
+    width                : 48px;
+    background-position  : 0px 0px;
+ }
+
+ .applications-development {
+    height               : 48px;
+    width                : 48px;
+    background-position  : -48px 0px;
+ }
+
+ .dialog-error-copyright {
+    height               : 48px;
+    width                : 48px;
+    background-position  : -96px 0px;
+ }
+
+ .dialog-warning {
+    height               : 48px;
+    width                : 48px;
+    background-position  : -144px 0px;
+ }
+
+ .document-save {
+    height               : 48px;
+    width                : 48px;
+    background-position  : -192px 0px;
+ }
+
+ .emblem-notice {
+    height               : 48px;
+    width                : 48px;
+    background-position  : -240px 0px;
+ }
+
+ .internet-news-reader {
+    height               : 48px;
+    width                : 48px;
+    background-position  : -286px 0px;
+ }
+
+ .emblem-system {
+    height               : 48px;
+    width                : 48px;
+    background-position  : -336px 0px;
+ }
+
+ .emblem-what {
+    height               : 48px;
+    width                : 48px;
+    background-position  : -384px 0px;
+ }
+
+ .glade-3 {
+    height               : 48px;
+    width                : 48px;
+    background-position  : -432px 0px;
+ }
+
+ .gnumeric {
+    height               : 48px;
+    width                : 48px;
+    background-position  : -480px 0px;
+ }
+
+ .go-home {
+    height               : 48px;
+    width                : 48px;
+    background-position  : -528px 0px;
+ }
+
+ .internet-group-chat {
+    height               : 48px;
+    width                : 48px;
+    background-position  : -576px 0px;
+ }
+
+/** END: 48px Icon Sprites **/
+
+/** END Clansuite CSS **/

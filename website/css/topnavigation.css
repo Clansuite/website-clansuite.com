@@ -1,0 +1,77 @@
+#headbar {
+    font-family:Verdana,Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    background:#E7E7E7 url(http://cdn.clansuite.com/images/kubrickheader-downtab.png) repeat-x scroll 0 0px;
+    height:31px;
+    margin:-10px auto 25px;
+    width:800px;
+    max-height:31px;
+}
+#headmenu ul, #langs ul {
+    display:block;
+    margin:0;
+    padding:0;
+}
+#headmenu
+{
+    padding-left:12px;
+}
+#headmenu ul li, #langs ul li {
+    background:transparent url(http://cdn.clansuite.com/images/Chevron2.gif) no-repeat scroll 0 0;
+    float:right;
+    font-size:0.9167em;
+    height:20px;
+    line-height:21px;
+    margin:0 7px 0 0;
+    overflow:hidden;
+    padding:0px 0 0 10px;
+    position:relative;
+}
+#headmenu ul li {
+    background:transparent url(http://cdn.clansuite.com/images/Chevron.gif) no-repeat scroll 100% 0;
+    float:left;
+    padding:0px 10px 0 0;
+}
+#headmenu img
+{
+    margin-top: 3px; margin-right: 5px; margin-left: 5px;
+}
+#langs {
+    float:right;
+    padding-right: 3px;
+}
+#langs ul li img {
+    margin-right:5px;
+    margin-top:-2px;
+    vertical-align:middle;
+}
+#topborder {
+    background-color: white;
+    border-bottom: 1px solid #AAAAAA;
+    height: 14px;
+}
+
+a:hover {
+    color:#114477;
+    text-decoration:underline;
+}
+a:hover {
+    color:red;
+    text-decoration:underline;
+}
+a, a:link, a:visited {
+    text-decoration:none;
+}
+a, h2 a:hover, h3 a:hover {
+    color:#0066CC;
+    text-decoration:none;
+}
+a, a:link, a:visited {
+    text-decoration:none;
+}
+#headbar a, a:link, a:visited {
+    text-decoration: none;
+}
+#langs img {
+    border: 0px;
+}

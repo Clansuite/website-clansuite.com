@@ -1,0 +1,7 @@
+# http://robotstxt.org/
+# http://google.com/support/webmasters/bin/answer.py?hl=en&answer=156449
+
+# robots.txt for http://www.clansuite.com/
+# Zugriff auf alle Dateien erlauben
+User-agent: *
+Disallow:
