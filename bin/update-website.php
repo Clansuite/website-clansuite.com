@@ -1,6 +1,9 @@
 <?php
 /**
  * Automatical Website Deployment via a Github Post-Receive Hook Trigger.
+ *
+ * How to setup a post receive hook on Github:
+ *     https://help.github.com/articles/post-receive-hooks
  */
 
 // commands
