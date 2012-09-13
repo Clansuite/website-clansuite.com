@@ -487,26 +487,14 @@
                         <h3>Get involved...</h3>
                         <p>Developers have few things to do:</p>
                         <ul>
-                            <li>Register yourself an account at GNA and join our "Clansuite" <a href="https://gna.org/my/groups.php">developers-group</a>. A developer will then consider your membership request for approval.</li>
+                            <li>Register yourself an account over at Github and fork the  "Clansuite" Git repository.</li>
+                            <li>You might find more pieces of information about using Git and working Github on <a href="https://help.github.com/">Github's help pages</a>.</li>
                             <li>Stay in contact with Clansuite developers and user community.</li>
-                            <li>Once you are a project member, you can get information on <a href="https://gna.org/svn/?group=clansuite">how to access the sourcecode in the svn-tree</a>.</li>
                             <li>Get familiar with Clansuite's source code. We hope it's easy to follow and understand - if not change it!</li>
-                            <li>Browse Clansuite's <a href="https://gna.org/task/?func=browse&amp;set=open&amp;group=clansuite">open tasks</a>.</li>
+                            <li>Browse Clansuite's chronological <a href="http://trac.clansuite.com/report/22">todo list</a>.</li>
                             <li>Consider new features before proposing them.</li><li>Claim a task, and set reasonable goals.</li>
-                            <li>Submit your changes.</li>
+                            <li>Submit your changes as a pull request.</li>
                         </ul>
-                        <h3>GNA Subversion Repository</h3>
-                        <p>This project is hosted by <a href="https://gna.org/projects/clansuite/">GNA!</a>.    You can read/view our <a href="https://gna.org/svn/?group=clansuite">repository</a> or simply <a    href="http://download.gna.org/clansuite/">download</a> the source code.</p>
-                        <h3>How to get SVN</h3>
-                        <p>Linux users can get SVN from <a href="http://subversion.tigris.org/">Tigris</a>, or possibly as package from your Linux-distributor.</p>
-                        <p>Windows users preferably can use <a href="http://tortoisesvn.tigris.org">TortoiseSVN</a>, an extension for IE &#174; that enourmously increases productivity.</p>
-                        <p>Check out by TSVN via <a href="tsvn:http://svn.gna.org/svn/clansuite/trunk"> <img src="http://cdn.clansuite.com/images/banners/TortoiseCheckout.png" width="48" height="48" alt="Tortoise Checkout" title="Tortoise Checkout" /></a></p>
-                        <h3>SVN documentations</h3>
-                        <p>
-                            Learn how to fetch a copy of the Clansuite SVN tree (the repository). After the first fetch (the checkout), you only need to update.
-                            A simple <a href="http://svn.collab.net/repos/svn/trunk/doc/user/cvs-crossover-guide.html">SVN Users-Guide</a>.
-                            The official Subversion documentation can be found at <a href="http://svnbook.red-bean.com/">svnbook.red-bean.com</a>
-                        </p>
                     </div>
 
                     <!-- page-contact -->
