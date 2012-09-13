@@ -373,31 +373,29 @@
                         <h2>Clansuite Development Version</h2>
                         <p>
                            Feel free to test and contribute to the Development-Version.
-                           You will we the latest version is in our subversion repository in the directory <a href="tsvn:http://svn.gna.org/svn/clansuite/trunk">"trunk"</a>.
-                           Download it with "svn checkout" or "svn export".
+                            <ul>
+                                <li>For testing purposes you might <a href="https://github.com/Clansuite/Clansuite/zipball/develop">download the latest development version</a> from Github.</li>
+                                <li>For developing, we suggest to simply  <a href="https://github.com/Clansuite/Clansuite">fork the repository</a> and start contributing.Clansuite-Repository</a>.</li>
+                            </ul>
                         </p>
-                        <p><a href="http://svn.gna.org/svn/clansuite/trunk">http://svn.gna.org/svn/clansuite/trunk</a></p>
-                        <p>When using TortoiseSVN you might use the following link for a direkt "checkout" of the source.</p>
-                        <p><a href="tsvn:http://svn.gna.org/svn/clansuite/trunk">Clansuite Trunk - Checkout with Tortoise SVN</a>.</p>
+
                         <?php
 
                         /**
-                         * Author: digitaldoener AT googlemail DOT com; 18-Jan-2009 06:51 @ php.net/filesize
-                         * Byte converting with formated number
+                         * Convert byte value into humand readable format.
                          *
                          * @param int $bytes bytes
                          * @return string
                          */
                         function byteConvert(&$bytes)
                         {
-                            $b = (int) $bytes;
+                            $b = int $bytes;
                             $s = array('B', 'kB', 'MB', 'GB', 'TB');
-                            if($b < 0)
-                            {
+                            if($b < 0) {
                                 return "0 " . $s[0];
                             }
                             $con = 1024;
-                            $e = (int) (log($b, $con));
+                            $e = int (log($b, $con));
                             return number_format($b / pow($con, $e), 2, ',', '.') . ' ' . $s[$e];
                         }
 

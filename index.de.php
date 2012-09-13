@@ -382,7 +382,7 @@
                         <p>Aufgepasst - denn es kommen immer wieder Fragen danach:</p>
                         <p>
                             <div class="sprite dialog-warning"></div>
-                            <strong> Es gibt derzeit lediglich die Entwicklerversion, d.h. es gibt keine stabile Version, die sich zum Live-Einsatz eignet!</strong>
+                            <strong>Es gibt derzeit lediglich die Entwicklerversion, d.h. es gibt keine stabile Version, die sich zum Live-Einsatz eignet!</strong>
                         </p>
                         <!--
                         <p>Download</p>
@@ -391,32 +391,27 @@
                         </p>
                         -->
                         <h2>Clansuite Entwicklerversion</h2>
-                        <p>Zum Testen und Entwickeln kannst Du die aktuelle Entwicklerversion herunterladen und mit dem Installer installieren.
-                            Sie befindet sich in unserer Quellcodeverwaltung im Verzeichnis "/clansuite/trunk".
-                            Herunterladen kannst Du sie mittels "svn checkout" oder "svn export".
-                        </p>
-                        <p><a href="http://svn.gna.org/svn/clansuite/trunk">http://svn.gna.org/svn/clansuite/trunk</a></p>
-                        <p>Wenn du TortoiseSVN einsetzt, dann kannst du den nachfolgenden Direktlink für den Checkout verwenden.</p>
-                        <p><a href="tsvn:http://svn.gna.org/svn/clansuite/trunk">Checkout "Clansuite Trunk" with Tortoise SVN</a>.</p>
+                        <ul>
+                            <li>Zum Testen kannst Du die aktuelle Entwicklerversion <a href="https://github.com/Clansuite/Clansuite/zipball/develop">herunterladen</a>.</li>
+                            <li>Wenn Du entwickeln möchtest, dann forke einfach das <a href="https://github.com/Clansuite/Clansuite">Clansuite-Repository</a> auf Github.</li>
+                        </ul>
                         <?php
 
                         /**
-                         * Author: digitaldoener AT googlemail DOT com; 18-Jan-2009 06:51 @ php.net/filesize
-                         * Byte converting with formated number
+                         * Convert byte value into humand readable format.
                          *
                          * @param int $bytes bytes
                          * @return string
                          */
                         function byteConvert(&$bytes)
                         {
-                            $b = (int) $bytes;
+                            $b = int $bytes;
                             $s = array('B', 'kB', 'MB', 'GB', 'TB');
-                            if($b < 0)
-                            {
+                            if($b < 0) {
                                 return "0 " . $s[0];
                             }
                             $con = 1024;
-                            $e = (int) (log($b, $con));
+                            $e = int (log($b, $con));
                             return number_format($b / pow($con, $e), 2, ',', '.') . ' ' . $s[$e];
                         }
 
