@@ -405,13 +405,13 @@
                          */
                         function byteConvert(&$bytes)
                         {
-                            $b = int $bytes;
+                            $b = (int) $bytes;
                             $s = array('B', 'kB', 'MB', 'GB', 'TB');
                             if($b < 0) {
                                 return "0 " . $s[0];
                             }
                             $con = 1024;
-                            $e = int (log($b, $con));
+                            $e = (int) (log($b, $con));
                             return number_format($b / pow($con, $e), 2, ',', '.') . ' ' . $s[$e];
                         }
 
