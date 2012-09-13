@@ -66,7 +66,7 @@
                 </ul>
             </div>
             <!-- Fork me on Github Ribbon -->
-            <a href="https://github.com/jakoch/Clansuite/">
+            <a href="https://github.com/Clansuite/Clansuite/">
                 <img style="position: absolute; top: 0; left: 0; border: 0;" src="http://cdn.clansuite.com/images/fork-me-on-github.png" height="149" width="149" alt="Fork Clansuite on GitHub" />
             </a>
         </div> <!-- Headbar End -->
@@ -83,7 +83,6 @@
                     </div>
                     <div id="menu">
                         <a href="#page-welcome" class="menu_button">Willkommen</a>
-                        <a href="#page-reasons" class="menu_button">Reasons</a>
                         <a href="#page-features" class="menu_button">Features</a>
                         <a href="#page-faq" class="menu_button">FAQ</a>
                         <a href="#page-news" class="menu_button">News</a>
@@ -116,20 +115,6 @@
                         <p>It's even suitable for "real-life" sports teams, associations, personal Web pages or to create the business Website for your company.</p>
                     </div>
 
-                    <!-- page-reasons -->
-                    <div id="page-reasons" class="accordion hide">
-                        <h2 class="headerstyle">
-                            <span class="sprite accessories-text-editor"></span>
-                            <span class="headerstyle-text">Gründe für dieses Projekt</span>
-                        </h2>
-                        <h3>Comment by Jens-Andr&#x00E9; Koch aka "vain"</h3>
-                        <p>As webmaster and orga of an e-sport team named "knd-squad" i used different cms over the years, most of them heavily modified by myself to fit our administrative needs and to take some work out of our hands.</p>
-                        <p>Long time ago, I contributed some of my ideas and useful (imo) features to different clan-related cms communities, but found them only little organized, focused on un-needed things while being unable to help in development of important features or realize basic user-requests.</p>
-                        <p>As I began to implement add-on's on my own, i found myself always working on the frame-level, reaching the borders of those cms. Too often they were lacking essential features while featuring essential design flaws to build upon. Some of my idea's couldn't be implemented easily, other ones ended too often on my sketchpad.</p>
-                        <p>In the end i decided to start a e-sport dedicated cms from scratch. Clansuite was born.</p>
-                        <p>My objective is to develop a community surrounded free clan cms/portal system, focused on essential administrative needs for both, e-sport and real-life sport teams, while keeping simplicity and maintainabilty in mind. Lets state: Less is more - and the eye-candy-stuff could always be added by good designers! </p>
-                    </div>
-
                     <!-- page-features -->
                     <div id="page-features" class="accordion hide">
                         <h2 class="headerstyle">
@@ -140,7 +125,7 @@
                         <p>It's designed with simplicity in mind, while trying to keep in touch with the latest internet technologies.</p>
                         <p>The core is object-oriented, rock-solid while simple and plugin-able. This CMS integrates and merges a whole bunch of superb open-source libraries.</p>
                         <dl>
-                            <dt>Object-Oriented Application</dt>
+                            <dt>Object-Oriented Application based on Koch Framework</dt>
                             <dd>Clansuite is developed as a object-oriented web-application. It is build using widely accepted web development patterns.</dd>
                             <dt>Design-Patterns used.</dt>
                             <dd>It implements the Web-MVC design-pattern and maps URLs to controllers and actions, and lets actions render views.</dd>

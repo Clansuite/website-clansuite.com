@@ -66,7 +66,7 @@
                 </ul>
             </div>
             <!-- Fork me on Github Ribbon -->
-            <a href="https://github.com/jakoch/Clansuite/">
+            <a href="https://github.com/Clansuite/Clansuite/">
                 <img style="position: absolute; top: 0; left: 0; border: 0;" src="http://cdn.clansuite.com/images/fork-me-on-github.png" height="149" width="149" alt="Fork Clansuite on GitHub" />
             </a>
         </div> <!-- Headbar End -->
@@ -83,7 +83,6 @@
                     </div>
                     <div id="menu">
                         <a href="#page-welcome" class="menu_button">Willkommen</a>
-                        <a href="#page-reasons" class="menu_button">Gründe</a>
                         <a href="#page-features" class="menu_button">Features</a>
                         <a href="#page-faq" class="menu_button">FAQ</a>
                         <a href="#page-news" class="menu_button">News</a>
@@ -127,21 +126,6 @@
                         <p>Somit stellt Clansuite auch für den Webauftritt von Sportmannschaften aller Art, Vereinen und Unternehmen eine optimale Lösung dar.</p>
                     </div>
 
-                    <!-- page-reasons -->
-                    <div id="page-reasons" class="accordion hide">
-                        <h2 class="headerstyle">
-                            <span class="sprite accessories-text-editor"></span>
-                            <span class="headerstyle-text">Gründe für dieses Projekt</span>
-                        </h2>
-                        <h3>Kommentar von Jens-Andr&#x00E9; Koch aka "vain"</h3>
-                        <p>Als Organisator und Webmaster des eSport-Teams "knd-squad" habe ich in den vergangenen Jahren verschiedenste CMS eingesetzt. Viele davon habe ich umfangreich modifiziert, um unseren administrativen Bedürfnissen besser zu entsprechen und uns einige Arbeit abzunehmen.</p>
-                        <p>Die dabei entstandenen Ideen und nützlichen Funktionen habe ich im Laufe der Zeit an verschiedene Clan-CMS Entwicklergemeinschaften herangetragen. Doch diese waren zumeist schlecht organisiert und auf unnötige Dinge festgelegt, während sie zugleich nicht in der Lage waren, bei der Entwicklung wichtiger Funktionen mitzuhelfen, oder einfachste Benutzerwünsche oder Fragen zu beantworten.</p>
-                        <p>Als ich angefangen habe Funktionserweiterungen einzupflegen, habe ich relativ schnell feststellen müssen, dass ich immer im Randbereich arbeitete und die jeweiligen Grenzen des Systems erreichte. Zu oft fehlten die Wesentliches leistenden Funktionen, während man sich fehlerbehafte Entwürfe leistete, auf welchen man aufbauen sollte. Einige meiner Ideen konnten nicht so einfach umgesetzt werden, wieder andere landeten viel zu oft in meinem Entwurfsnotizblock.</p>
-                        <p>Am Ende beschloss ich ganz von vorne anzufangen und ein dem e-Sport gewidmetes CMS zu erstellen.</p>
-                        <p>Clansuite war geboren.</p>
-                        <p>Meine Ziel ist die Entwicklung eines gemeinschaftsgetragenen, freien CMS bzw. Portalsystems, welches sich auf die wesentlichen Verwaltungsbedürfnisse von eSport-Teams konzentriert und dabei Einfachheit und Handhabbarkeit im Hinterkopf behält.</p>
-                    </div>
-
                     <!-- page-features -->
                     <div id="page-features" class="accordion hide">
                         <h2 class="headerstyle">
@@ -154,9 +138,9 @@
                         <p>Beim Entwurf wurde großen Wert auf Einfachheit und Übersichtlichkeit gelegt - gerade auch, weil der neueste Schrei in Sachen Webtechnologie verwendet wird.</p>
                         <p>Die Anwendung ist objektorientiert aufgebaut und als einfach erweiterbares Framework konzipiert. Das CMS stützt sich dabei auf eine ganze Reihe von hervorragenden Open-Source Bibliotheken.</p>
                         <dl>
-                            <dt>Objektorientierte Webapplikation</dt>
+                            <dt>Objektorientierte Webapplikation basierend auf Koch Framework</dt>
                             <dd>Clansuite ist eine objektorientierte Webapplikation in der zahlreiche Entwurfsmuster verwendet werden.</dd>
-                            <dd>Zum Einsatz kommen: das Web-MVC Muster, sowie ein Frontcontroller mit InterceptingFilters.</dd>
+                            <dd>Zum Einsatz kommen: das Web-MVC Muster, sowie ein Frontcontroller mit Intercepting-Filters.</dd>
                             <dd>Er leitet die URL-Parameter an die entsprechenden Controller und ermöglicht so die Ausgabe von Views durch die angeforderten Actions.</dd>
                             <dd>Weitere verwendete Entwurfsmuster sind: Singleton, Factory, Two-Step View, Facade, Adapter,</dd>
                             <dd>Iterator und Inversion of Control (Ioc). (Genug der Buzzwords.)</dd>
@@ -512,8 +496,8 @@
                             <span class="sprite gnumeric"></span>
                             <span class="headerstyle-text">Projektstatistik &amp; Softwaremetrik</span>
                         </h2>
-                        <h2>StatSVN</h2>
-                        <p>Schaut Euch unser <a href="http://clansuite.com/statsvn/">StatSVN</a> für eine zahlenmäßige Auswertung unserer Entwicklungsarbeit an!</p>
+                        <h2>Statistik</h2>
+                        <p>Schaut Euch unsere <a href="https://github.com/Clansuite/Clansuite/graphs/">Github Graphs</a> für eine zahlenmäßige Auswertung unserer Entwicklungsarbeit an!</p>
                         <h2>Ohloh Metrics</h2>
                         <p>
                             <script type="text/javascript" src="http://www.ohloh.net/projects/5526/widgets/project_basic_stats"></script>
@@ -539,29 +523,15 @@
                         <p>Clansuite ist ein auf Zusammenarbeit beruhendes Softwareentwicklungsprojekt.</p>
                         <p>It's all about people! Nichts hält Dich davon ab, hier mitzumachen!</p>
                         <p>Dabei kannst Du die Weiterentwicklung durch verschiedenste Beiträge fördern, wie zum Beispiel: Code, Dokumentation, Templates, Bilder, Designs, Ideen, Motivation - was auch immer Dir einfällt.</p>
-                        <h3>Mach mit...</h3>
-                        <p>Um Entwickler zu werden, kannst Du folgende Dinge tun:</p>
+                        <h3>Mach einfach mit...</h3>
                         <ul>
-                            <li>Leg Dir ein Benutzerkonto bei GNA an und trete unserer <a href="https://gna.org/my/groups.php">Entwicklergruppe</a> "Clansuite" bei. Ein Entwickler oder der Projektbetreuer wird dann über Deinen Mitgliedschaftsantrag befinden.</li>
-                            <li>Bleib in Kontakt mit den Clansuite Entwicklern und den Benutzern.</li>
-                            <li>Wenn Du dann Projektmitglied bist, bekommst Du Informationen, wie Du <a href="https://gna.org/svn/?group=clansuite">den Quellcode aus dem SVN Archiv holst und einstellst</a>.</li>
-                            <li>Mach Dich mit dem Quellcode von Clansuite vertraut. Wir hoffen er ist einfach zu lesen und zu verstehen - falls nicht, dann kannst Du das gerne ändern!</li>
-                            <li>Durchsuche Clansuite's <a href="http://clansuite.com/trac/report/1">ToDo-Liste</a>.</li>
-                            <li>Überlege Dir neue Features gründlich bevor Du sie dort vorschlägst.</li><li>Such Dir eine Aufgabe die Du auch umsetzen kannst.</li>
-                            <li>Sende Deine Änderungen.</li>
+                            <li>Dazu legst Du Dir ein Benutzerkonto bei Github an und forkst das Clansuite Git-Repository.</li>
+                            <li>Du findest Hilfe zum Umgang mit Git und Github auf <a href="https://help.github.com/">Github's Hilfeseiten</a>.</li>
+                            <li>Mach Dich zunächst mit dem Quellcode von Clansuite vertraut. Wir hoffen er ist einfach zu lesen und zu verstehen - falls nicht, dann kannst Du das gerne ändern!</li>
+                            <li>Bleib in Kontakt mit den Entwicklern und den Benutzern. Wir sind im Channel #clansuite im Quakenet zu finden.</li>
+                            <li>Du kannst nun Änderungen innerhalb deines Forks vornehmen und anschließend mittels Pull Request einschicken.</li>
+                            <li>Durchsuche Clansuite's chronologische <a href="http://trac.clansuite.com/report/22">ToDo-Liste</a>. Such Dir eine Aufgabe die Du auch umsetzen kannst.</li>
                         </ul>
-                        <h3>GNA Subversion Archiv</h3>
-                        <p>Das Projekt wird auf <a href="https://gna.org/projects/clansuite/">GNA!</a> gehostet. Du kannst unser <a href="https://gna.org/svn/?group=clansuite">SVN Archiv</a> ansehen oder einfach den <a  href="http://download.gna.org/clansuite/">Source-Code</a> herunterladen.</p>
-                        <h3>Wie man Subversion (SVN) erhält</h3>
-                        <p>Linux Benutzer können SVN von <a href="http://subversion.tigris.org/">Tigris</a> oder als Package der jeweiligen Linux-Distribution beziehen.</p>
-                        <p>Windows Nutzer können vorzugsweise <a href="http://tortoisesvn.tigris.org">TortoiseSVN</a>, eine produktivitätssteigernde Explorererweiterung verwenden.</p>
-                        <h3>Wie man das Clansuite SVN-Archiv erhält</h3>
-                        <p>Durch einen Klick auf die Schildkröte <a href="tsvn:http://svn.gna.org/svn/clansuite/trunk"> <img src="http://cdn.clansuite.com/images/banners/TortoiseCheckout.png" width="48" height="48" alt="Tortoise Checkout" title="Tortoise Checkout" /></a> kannst Du das SVN-Archiv mittels TortoiseSVN herunterladen.</p>
-                        <p>Alternativ kannst Du auch folgende URL verwenden: http://svn.gna.org/svn/clansuite/trunk</p>
-                        <p>Nachdem Du eine Kopie des Clansuite SVN Repositories auf Deinen Rechner geholt hast (der erste Checkout), brauchst Du danach einfach nur noch zu "updaten" (die weiteren Updates) um auf dem aktuellsten Entwicklungsstand zu bleiben.</p>
-                        <h3>SVN Anleitungen</h3>
-                        <p>Für eine genaue Anleitung kannst Du den einsteigerfreundlichen <a href="http://svn.collab.net/repos/svn/trunk/doc/user/cvs-crossover-guide.html">SVN Benutzerleitfaden</a> verwenden.</p>
-                        <p>Die offizielle Subversion Dokumentation findest Du auf <a href="http://svnbook.red-bean.com/">svnbook.red-bean.com</a></p>
                     </div>
 
                     <!-- page-contact -->
