@@ -303,17 +303,17 @@ function printLastModifiedDate($file = null)
                                     <tr>
                                         <td class="td-with-image">
                                             <a href="http://docs.clansuite.com/developer/doxygen/html/">
-                                                <img src="http://cdn.clansuite.com/images/Clansuite-Toolbar-Icon-64-phpdoc.png" alt="APIGEN" />
+                                                <img src="http://cdn.clansuite.com/images/Clansuite-Toolbar-Icon-64-phpdoc.png" alt="ApiGen" />
                                             </a>
                                         </td>
                                         <td>
                                             <div class="resourceheader">
                                                 <img class="res-header-icon" src="http://cdn.clansuite.com/images/documentation-classes.png" alt="Docu" />
                                                     <a href="http://docs.clansuite.com/developer/apigen/">
-                                                        <b>APIGEN</b>
+                                                        <b>ApiGen</b>
                                                     </a>
                                                     <br />
-                                                    <small>auto-generated from Source by APIGEN</small>
+                                                    <small>auto-generated from Source by ApiGen</small>
                                                     <p>
                                                         <br />
                                                         <small>Last update: <b><br /><?php printLastModifiedDate('/developer/apigen/index.html'); ?></b></small>
