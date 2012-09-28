@@ -59,8 +59,7 @@ function printLastModifiedDate($file = null)
 
         <style type="text/css">
             <!--
-            body
-            {
+            body {
                 margin: 0;
                 padding: 0;
                 font-family:  verdana, tahoma, arial, geneva, helvetica, sans-serif;
@@ -71,40 +70,34 @@ function printLastModifiedDate($file = null)
                 text-align: center;
             }
 
-            img
-            {
+            img {
                 border: 0px;
             }
 
-            .resourceheader
-            {
+            .resourceheader {
                 margin-left:    10px;
                 text-align:     left;
                 font-size:12px;
             }
 
-            .td-with-image
-            {
+            .td-with-image {
                 border-right:   1px dotted #B4B4B4;
                 padding-right:  10px;
             }
 
-            .footer
-            {
+            .footer {
                 font-family: verdana, tahoma;
                 font-size: 9px;
                 /*text-align: center;*/
                 /*margin: auto;*/
             }
 
-            ul
-            {
+            ul {
                 list-style-position:    outside;
                 list-style-type:        none;
             }
 
-            .cs-message
-            {
+            .cs-message {
                 background: none repeat scroll 0 0 #CDCDCD;
                 border-radius: 8px 8px 8px 8px;
                 padding: 5px;
@@ -123,14 +116,12 @@ function printLastModifiedDate($file = null)
                 height: 100px;
             }
 
-            .cs-message h3
-            {
+            .cs-message h3 {
                 margin: 5px;
                 font-size: 13px;
             }
 
-            .res-header-icon
-            {
+            .res-header-icon {
                 vertical-align: text-top;
             }
 
@@ -299,6 +290,33 @@ function printLastModifiedDate($file = null)
                                                     <p>
                                                         <br />
                                                         <small>Last update: <b><br /><?php printLastModifiedDate('/developer/doxygen/html/index.html'); ?></b></small>
+                                                    </p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                         <tr>
+                            <td colspan="2">
+                                <table class="cs-message-content">
+                                    <tr>
+                                        <td class="td-with-image">
+                                            <a href="http://docs.clansuite.com/developer/doxygen/html/">
+                                                <img src="http://cdn.clansuite.com/images/Clansuite-Toolbar-Icon-64-phpdoc.png" alt="APIGEN" />
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <div class="resourceheader">
+                                                <img class="res-header-icon" src="http://cdn.clansuite.com/images/documentation-classes.png" alt="Docu" />
+                                                    <a href="http://docs.clansuite.com/developer/apigen/">
+                                                        <b>APIGEN</b>
+                                                    </a>
+                                                    <br />
+                                                    <small>auto-generated from Source by APIGEN</small>
+                                                    <p>
+                                                        <br />
+                                                        <small>Last update: <b><br /><?php printLastModifiedDate('/developer/apigen/index.html'); ?></b></small>
                                                     </p>
                                             </div>
                                         </td>
