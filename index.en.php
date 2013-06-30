@@ -34,11 +34,11 @@
     <title>Clansuite - just an eSports CMS ! Clan Content Management System. Based on PHP5, Doctrine, Smarty, Ajax. - Easy, comfortable, fast, flexible.</title>
     <link rel="home" href="/">
     <link rel="prefetch" href="http://forum.clansuite.com/" title="Clansuite Forums" />
-    <link rel="prefetch" href="http://trac.clansuite.com/" title="Bugtracker" />
+    <link rel="prefetch" href="https://github.com/Clansuite/Clansuite/issues/" title="Issue-Tracker" />
     <link rel="prerender" href="http://forum.clansuite.com/" title="Clansuite Forums" />
-    <link rel="prerender" href="http://trac.clansuite.com/" title="Bugtracker" />
+    <link rel="prerender" href="https://github.com/Clansuite/Clansuite/issues/" title="Issue-tracker" />
     <link rel="shortcut icon" href="http://clansuite.com/favicon.ico" />
-    <link rel="alternate" type="application/rss+xml" href="http://groups.google.com/group/clansuite/feed/rss_v2_0_topics.xml" title="Clansuite News" />
+    <link rel="alternate" type="application/rss+xml" href="https://groups.google.com/forum/feed/clansuite/topics/rss_v2_0.xml" title="Clansuite News" />
     <link rel="stylesheet" type="text/css" href="http://cdn.clansuite.com/css/topnavigation-min.css" media="all" />
     <link rel="stylesheet" type="text/css" href="http://cdn.clansuite.com/css/kubrick-min.css" media="all" />
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=IM+Fell+DW+Pica+SC&amp;subset=latin" />
@@ -55,7 +55,7 @@
                     <li><a href="#page-downloads">Downloads</a></li>
                     <li><a href="http://docs.clansuite.com/">Dokumentation</a></li>
                     <li><a href="http://forum.clansuite.com/">Forum</a></li>
-                    <li><a href="http://trac.clansuite.com/">Bugtracker</a></li>
+                    <li><a href="https://github.com/Clansuite/Clansuite/issues/">Issue-Tracker</a></li>
                     <li><a href="http://ci.clansuite.com/">Jenkins</a></li>
                 </ul>
             </div>
@@ -289,7 +289,7 @@
                             global $cachefile;
 
                             # URL of Feed
-                            $feedURL = "http://groups.google.com/group/clansuite/feed/rss_v2_0_topics.xml";
+                            $feedURL = "https://groups.google.com/forum/feed/clansuite/topics/rss_v2_0.xml";
                             # Cache Filename and Path
                             $cachefile = dirname(__FILE__) . "/website/feedcache/" . urlencode($feedURL);
 
@@ -367,7 +367,7 @@
                         <!--
                         <p>Download</p>
                         <p><img alt="reasons image" style="float:left; vertical-align: middle;" src="http://cdn.clansuite.com/images/download-64px.png" />
-                          <strong> Version 0.2.0 alpha</strong> <a href="http://trac.clansuite.com/timeline">Changelog</a>
+                          <strong> Version 0.2.0 alpha</strong> <a href="http://clansuite.com/">Changelog</a>
                         </p>
                         -->
                         <h2>Clansuite Development Version</h2>
@@ -608,7 +608,7 @@
                             <li>in Development</li>
                             <li><strong><div id="current-milestone"></div></strong></li>
                             <li><div id="widget-countdown"></div></li>
-                            <li><strong><a href="http://trac.clansuite.com/roadmap/">Roadmap</a></strong></li>
+                            <li><strong><a href="https://github.com/Clansuite/Clansuite/issues/milestones/">Roadmap</a></strong></li>
                         </ul>
                     </div>
 
@@ -664,14 +664,14 @@
                     <div class="box">
                         <ul>
                             <li><h2>Fehler gefunden?</h2></li>
-                            <li><strong><a href="http://trac.clansuite.com/">Bugtracker</a></strong></li>
+                            <li><strong><a href="https://github.com/Clansuite/Clansuite/issues/">Bugtracker</a></strong></li>
                             <li><b>Core</b></li>
-                            <li><strong><a href="http://trac.clansuite.com/newticket?type=defect-bug&amp;component=Core">Report Bug</a></strong></li>
-                            <li><strong><a href="http://trac.clansuite.com/newticket?type=enhancement-feature%20request&amp;component=Core">Request Feature
+                            <li><strong><a href="https://github.com/Clansuite/Clansuite/issues/">Report Bug</a></strong></li>
+                            <li><strong><a href="https://github.com/Clansuite/Clansuite/issues/">Request Feature
                             </a></strong></li>
                             <li><b>Modules</b></li>
-                            <li><strong><a href="http://trac.clansuite.com/newticket?type=defect-bug&amp;component=Module">Report Bug</a></strong></li>
-                            <li><strong><a href="http://trac.clansuite.com/newticket?type=enhancement-feature%20request&amp;component=Module">Request Feature</a></strong></li>
+                            <li><strong><a href="https://github.com/Clansuite/Clansuite/issues/">Report Bug</a></strong></li>
+                            <li><strong><a href="https://github.com/Clansuite/Clansuite/issues/">Request Feature</a></strong></li>
                         </ul>
                     </div>
                     <!-- End Box4 -->
