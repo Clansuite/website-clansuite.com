@@ -344,7 +344,7 @@
                                 echo '<span style="font-size: 11px;">' . htmlspecialchars($items->pubDate) . '</span><br /></p>';
                                 if($i == 10)
                                 {
-                                    break(0);
+                                    break;
                                 }
                             }
                         }
