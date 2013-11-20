@@ -149,7 +149,7 @@ function printLastModifiedDate($file = null)
                 </ul>
             </div> <!-- Headmenu End -->
             <!-- Fork me on Github Ribbon -->
-            <a href="https://github.com/jakoch/Clansuite/">
+            <a href="https://github.com/Clansuite/Clansuite/">
                 <img style="position: absolute; top: 0; left: 0; border: 0;" src="http://cdn.clansuite.com/images/fork-me-on-github.png" alt="Fork Clansuite on GitHub" />
             </a>
         </div><!-- Headbar End -->
