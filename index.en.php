@@ -387,7 +387,7 @@
                          * @param int $bytes bytes
                          * @return string
                          */
-                        function byteConvert(&$bytes)
+                        function byteConvert($bytes)
                         {
                             $b = (int) $bytes;
                             $s = array('B', 'kB', 'MB', 'GB', 'TB');

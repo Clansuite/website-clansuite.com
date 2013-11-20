@@ -1,4 +1,4 @@
-<?php header ('Content-type: text/html; charset=utf-8'); 
+<?php header ('Content-type: text/html; charset=utf-8');
 
 # Set Locale for Date Functions
 setlocale (LC_TIME, "de_DE");
@@ -34,7 +34,7 @@ if(is_array($files))
 * @param int $bytes bytes
 * @return string
 */
-function byteConvert(&$bytes)
+function byteConvert($bytes)
 {
     $b = (int)$bytes;
     $s = array('B', 'kB', 'MB', 'GB', 'TB');
@@ -160,13 +160,13 @@ function LastModified() {
             <li><a href="http://clansuite.com/">Home</a></li>
             <li><a href="http://clansuite.com/#page-downloads">Downloads</a></li>
             <li><a href="http://docs.clansuite.com/">Documentation</a></li>
-            <li><a href="http://forum.clansuite.com/">Forum</a></li>            
+            <li><a href="http://forum.clansuite.com/">Forum</a></li>
             <li><a href="http://trac.clansuite.com/">Bugtracker</a></li>
             <li><a href="http://ci.clansuite.com/">Jenkins</a></li>
         </ul>
     </div><!-- Headmenu End -->
      <!-- Fork me on Github Ribbon -->
-    <a href="https://github.com/jakoch/Clansuite-Firefox-Toolbar/">
+    <a href="https://github.com/Clansuite/Clansuite-Firefox-Toolbar/">
         <img style="position: absolute; top: 0; left: 0; border: 0;" src="http://cdn.clansuite.com/images/fork-me-on-github.png" alt="Fork Clansuite on GitHub" />
     </a>
 </div><!-- Headbar End -->
@@ -223,7 +223,7 @@ function LastModified() {
                             <table>
                                 <tr><td style="width: 90px">Author</td><td>Jens-Andr&#x00E9; Koch</td></tr>
                                 <tr><td>Version</td><td><?php echo $latest_version; ?></td></tr>
-                                <tr><td>Last Update</td><td><?php echo $latest_date; ?></td></tr>                                
+                                <tr><td>Last Update</td><td><?php echo $latest_date; ?></td></tr>
                                 <tr><td>License</td><td>MPL 1.1 / GPL 2+ / LGPL 2.1+</td></tr>
                                 <tr><td>Icon License</td><td>CCA 3.0 / PD</td></tr>
                                 <tr><td>Size</td><td><?php echo $latest_size; ?></td></tr>
